@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+   background: linear-gradient(to bottom, #d9d9d9, #a6a6a6);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 100px auto 20px auto;
+    background-color: #4a6fa5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nomeLogo {
+    color: rgb(248, 245, 245);
+}
+
+.nome {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    background-color: white;
+}
+
+.divnome {
+    color: black;
+}
+
+.formulario {
+    max-width: 500px;
+    width: 90%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 20px;
+}
+
+.login,
+.senha,
+.container {
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.logar,
+.password {
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.nomeUsuario,
+.nomeSenha {
+    display: block;
+    color: #4a6fa5;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.nomeUsuario {
+    margin-top: 20px;
+}
+
+.nomeSenha {
+    margin-top: 20px;
+}
+
+.botao {
+    background-color: #4a6fa5;
+    width: 100%;
+    max-width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.nomeEntrar {
+    color: white;
+    font-weight: bold;
+}
+
+.irTelaCadastro {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.esqueci-senha {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.cadastrar,
+.nomeesqueci-senha {
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    .formulario {
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    .logar,
+    .password {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .nomeUsuario,
+    .nomeSenha {
+        margin-right: 100px;
+        text-align: left;
+    }
+
+    .irTelaCadastro,
+    .esqueci-senha {
+        margin-left: 0;
+        text-align: center;
+    }
+}
